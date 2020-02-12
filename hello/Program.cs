@@ -27,6 +27,7 @@ namespace hello
             double dogWeigth = 9.2;
             decimal balanceAccount = 0.01m;
             char firstLetter = 'L';
+            string fullName = 'Winglerson Silva';
 
             bool isDog = true;
 
