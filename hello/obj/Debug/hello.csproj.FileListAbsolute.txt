@@ -1,0 +1,5 @@
+/Users/leandrosimoes/Projects/hello/hello/obj/Debug/hello.csprojAssemblyReference.cache
+/Users/leandrosimoes/Projects/hello/hello/bin/Debug/hello.exe
+/Users/leandrosimoes/Projects/hello/hello/bin/Debug/hello.pdb
+/Users/leandrosimoes/Projects/hello/hello/obj/Debug/hello.exe
+/Users/leandrosimoes/Projects/hello/hello/obj/Debug/hello.pdb
