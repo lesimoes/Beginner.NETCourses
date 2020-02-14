@@ -1,0 +1,2 @@
+/Users/leandrosimoes/Projects/hello/hello/bin/Release/hello.exe
+/Users/leandrosimoes/Projects/hello/hello/obj/Release/hello.exe

@@ -7,33 +7,32 @@ namespace hello
         public static void Main(string[] args)
         {
 
-            byte allocMemoryByte = 10;
-            sbyte allocMemory = -10;
+            int[] someOddsNumbers = { 1, 3, 5, 7 };
 
-            //signed
-            short shortNumber = -1100;
+            //For Loop
+            for (int i = 0; i < someOddsNumbers.Length; i ++)
+            {
+                Console.Write(someOddsNumbers[i]);
+            }
 
-            //unsigned
-            ushort uShortNumber = 100;
+            Console.WriteLine();
 
-            int dogAge = 7;
-            //unsigned
-            uint onlyPositive = 10;
+            //For Each Loop
+            foreach(int number in someOddsNumbers)
+            {
+                Console.Write(number);
+            }
 
-            long peopleLivingInMinas = 10000;
-            ulong onlyPositiveLong = 10000;
+            Console.WriteLine();
 
-            float dogHeigth = 1.3f;
-            double dogWeigth = 9.2;
-            decimal balanceAccount = 0.01m;
-            char firstLetter = 'L';
-            string fullName = 'Winglerson Silva';
+            string hello = "Eu adoro programar em C#";
+            Console.WriteLine(hello.Substring(3, 6));
+            Console.WriteLine(hello.Replace("adoro", "amo"));
+            Console.WriteLine(hello.ToUpper());
 
-            bool isDog = true;
-
-            Console.WriteLine("Hello World! " + balanceAccount);
-
-            Console.WriteLine("Cast Operator" + (double) 4 /3);
+            var pokemon = (name: "Bulbasaur", type: "Water");
+            Console.WriteLine(pokemon);
+            Console.WriteLine("Seu pokemon chama: " + pokemon.name);
 
         }
     }
